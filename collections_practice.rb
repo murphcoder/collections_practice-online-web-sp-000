@@ -19,3 +19,11 @@ def sort_array_char_count(array)
     a.length <=> b.length
   end
 end
+
+def swap_elements(array)
+  a = array[1]
+  b = array[2]
+  array[1] = b
+  array[2] = a
+end
+
